@@ -16,7 +16,7 @@ Checkout is transactional.
 
 Folder **src/resources/** contains config files for **shopping-cart** Spring Boot application.
 
-* **src/resources/application.properties** - main configuration file. Here it is possible to change admin username/password,
+* **src/resources/application.yml** - main configuration file. Here it is possible to change admin username/password,
 as well as change the port number.
 
 ## How to run
