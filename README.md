@@ -146,8 +146,6 @@ $ mvn test
 
 ## Helper Tools
 
-### HAL REST Browser
-
 Go to the web browser and visit `http://localhost:8080/`
 
 You will need to be authenticated to be able to see this page.
