@@ -23,7 +23,7 @@ as well as change the port number.
 
 There are several ways to run the application. You can run it from the command line with included Maven Wrapper, Maven or Docker. 
 
-Once the app starts, go to the web browser and visit `http://localhost:8070/home`
+Once the app starts, go to the web browser and visit `http://localhost:8080/home`
 
 Admin username: **admin**
 
@@ -148,18 +148,18 @@ $ mvn test
 
 ### HAL REST Browser
 
-Go to the web browser and visit `http://localhost:8070/`
+Go to the web browser and visit `http://localhost:8080/`
 
 You will need to be authenticated to be able to see this page.
 
 ### H2 Database web interface
 
-Go to the web browser and visit `http://localhost:8070/h2-console`
+Go to the web browser and visit `http://localhost:8080/h2-console`
 
 In field **JDBC URL** put 
 ```
 jdbc:h2:mem:shopping_cart_db
 ```
 
-In `/src/main/resources/application.properties` file it is possible to change both
+In `/src/main/resources/application.yml` file it is possible to change both
 web interface url path, as well as the datasource url.
