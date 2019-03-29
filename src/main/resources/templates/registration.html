@@ -35,9 +35,9 @@
                 </div>
 
                 <div class="form-group">
-                    <label th:if="${#fields.hasErrors('email')}" th:errors="*{email}"
+                    <label th:if="${#fields.hasErrors('username')}" th:errors="*{username}"
                            class="alert alert-danger"></label>
-                    <input type="text" th:field="*{email}" placeholder="Email"
+                    <input type="text" th:field="*{username}" placeholder="Username"
                            class="form-control input-lg"/>
                 </div>
 
@@ -49,9 +49,9 @@
                 </div>
 
                 <div class="form-group">
-                    <label th:if="${#fields.hasErrors('username')}" th:errors="*{username}"
+                    <label th:if="${#fields.hasErrors('email')}" th:errors="*{email}"
                            class="alert alert-danger"></label>
-                    <input type="text" th:field="*{username}" placeholder="Username"
+                    <input type="text" th:field="*{email}" placeholder="Email"
                            class="form-control input-lg"/>
                 </div>
 
